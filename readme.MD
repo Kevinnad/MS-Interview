@@ -22,23 +22,23 @@ on click of an item on the list, invoke a detail fragment showing more details o
 
 - Achieved using LiveData, navigation and customised navcontroler 
 
-From detail fragment, when switched to other tabs on  the bottom bar, on Coming back to the first tab, The details fragment needs to be retained - not using any singleton or shared pref to store state use only fragment API.( Kindly ensure this point to be undertaken keenly)
+4. From detail fragment, when switched to other tabs on  the bottom bar, on Coming back to the first tab, The details fragment needs to be retained - not using any singleton or shared pref to store state use only fragment API.( Kindly ensure this point to be undertaken keenly)
 
 - Achieved through viewModel and instantstate
 
-Vanilla or any design pattern is welcome.
+5. Vanilla or any design pattern is welcome.
 
 - Used MVVM pattern
 
-Image loading - Caching of a bitmap is advisable.
+6. Image loading - Caching of a bitmap is advisable.
 
 - Used Glide to achieve
 
-The usage of Jetpack libraries is appreciated.
+7. The usage of Jetpack libraries is appreciated.
 
 - Yes, ViewModel, Navigation, LiveData,
 
-Make sure configuration changes are handled.
+8. Make sure configuration changes are handled.
 
 - ViewModel will handel the config changes
 
